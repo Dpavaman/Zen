@@ -1,0 +1,25 @@
+WHAT IS THE DIFFERENCE BETWEEN GET AND POST.
+
+
+There are two HTTP request methods for handling the forms, where submitted form-data from users can be collected using these methods. In order to send information to the webserver from the browser client, we use GET and POST methods.
+	GET method is used to get or request data from a specific source.
+	POST method is used to submit to be processed to a specific source.
+
+
+GET Method:
+	It appends form-data to the URL in name/ value pairs. The length of the URL is limited by 2048 characters. This method must not be used if you have a password or some sensitive information to be sent to the server. It is used for submitting the form where the user can bookmark the result. It is better for data that is not secure. It cannot be used for sending binary data like images or word documents. It also provides GET associative array to access all the sent information using the GET method.
+
+POST Method:
+	It appends form-data to the body of the HTTP request in such a way that data is not shown in the URL. This method does not have any restrictions on data size to be sent. Submissions by form with POST cannot be bookmarked. This method can be used to send ASCII as well as binary data like image and word documents. Data sent by the POST method goes through HTTP header so security depends on the HTTP protocol. You have to know that your information is secure by using secure HTTP. This method is a little safer than GET because the parameters are not stored in browser history or in web server logs. It also provides POST associative array to access all the sent information using the POST method.
+
+
+
+DIfference Between GET and POST Methods are..
+
+	GET Parameters are included in URL but POST parameters are included in the body.
+
+	GET requests are often used for fetching documents and GET parameters are used to describe which document we are looking for (or)  what page we are on (or) things of that nature. whereas POST parameters are often used for updating data for actually making changes to the server (or) to the data held on the server
+
+	Because GET methods are in URL, have a maximum URL length because you can encode many parameters whereas By default POST  don’t have any maximum length. Now the Server can be configured and most are to have a maximum length but it is usually substantially longer than 2000 characters. 
+
+	When we make a GET request- a simple request for URL. There are a lot of machines between you and server It saves a lot of effort if we know the document has not changed but Post parameters are almost never cached because you are probably updating data on the server so the industry standard is: Don’t cache POST request.

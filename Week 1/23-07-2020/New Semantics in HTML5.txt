@@ -1,0 +1,31 @@
+New Structural elements in HTML5:
+
+	HTML5 offers new semantic elements to define different parts of a web page such as
+	1. Header  2. nav   3. article   4. section  5. aside  6. footer
+
+1. HEADER:
+	The <header> tag typically contains the section's heading (an h1 to h6 element), as well as other content, such as a navigation links, table of contents, a search form, or any relevant logos. NOTE: <header> should not be confused with the <head> element.
+
+2. NAV:
+	This denotes a section with navigation links, either redirecting to other pages or to parts within the same page.
+
+3. ARTICLE:
+	Article is a self-contained composition in a document that is independently distributable or reusable, e.g. a forum post, a magazine or newspaper article, or blog entry.
+
+4. SECTION:
+	Unlike the <div> tag, which is used for a myriad of purposes, not the least of which is formatting content, the <section> element demarcates a thematic grouping of content. Each section typically includes a heading element and associated content within DIVs and Paragraphs. Examples include introduction, blog entries, and contact information.
+
+5. ASIDE:
+	Defines content tangentially related to the content surrounding it, such as related reading links and glossaries, which may or not be nested within an article element.
+
+6. FOOTER:
+	For content located at the very bottom of the web page or nearest section. A footer typically contains information about its section such as who wrote it, links to related documents, copyright data, etc. It in turn may contain entire sections, with appendices, indexes, license agreements, and other similar content.
+
+
+
+
+In earlier versions of HTML, there were no globally accepted names for structural elements, and each developer used their own. That made it very hard for search engines to index web page content correctly.
+
+When a browser communicates with the code, it looks for some specific information to help with the display. Hence, HTML5 introduced a consistent list of semantic elements to help search engines and developers.
+
+HTML5 semantic tags define the purpose of the element. By using semantic markup, you help the browser understand the meaning of the content instead of just displaying it. By providing this extra level of clarity, HTML5 semantic elements also help search engines to read the page and find the required information faster.
