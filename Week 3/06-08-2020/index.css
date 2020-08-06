@@ -1,0 +1,46 @@
+
+.w-35{
+    width: 50% !important;
+}
+.paper-name{
+    font-family: 'Red Rose', cursive;
+    font-size: 100px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+a:hover{
+    transform: scale(1.5);
+    transition: transform 0.5s;
+    
+}
+.nav-hr{
+    border-top: 2px solid black;
+    width: 40%;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+.thick{
+    border: 3px solid black;
+    margin-bottom: 5px;
+}
+.headdings{
+    font-family: 'Red Rose', cursive;
+    font-size: 35px;
+}
+.subheaddings{
+    font-family: 'Antic Slab', serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+p{
+    font-family: 'Antic Slab', serif;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 1;
+    text-align: justify ;
+}
