@@ -1,0 +1,24 @@
+html{
+    width: 80%;
+    margin-left: 10%;
+}
+body, html {
+    font-family: 'Times New Roman', Times, serif
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .col {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    margin-right: 1%;
+    height: 100px; 
+    background-color: white;
+    border: none;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

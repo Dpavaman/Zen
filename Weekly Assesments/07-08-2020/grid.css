@@ -1,0 +1,55 @@
+html{
+    margin-top: 10%;
+    margin-left: 18%;
+}
+* {
+  box-sizing: border-box;
+}
+
+.col {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  margin-right: 1%;
+  height: 450px; 
+  background-color: white;
+  border: 2px solid black;
+}
+h3{
+    font-family: 'Frank Ruhl Libre', serif;
+font-family: 'PT Serif', serif;
+font-size: 30px;
+font-weight: lighter;
+display: inline;
+}
+p{
+    text-align: justify;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card-image{
+    width: 100%;
+    height: 40%;
+}
+
+.buybutton {
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .buybutton:hover {
+    background-color: #4CAF50;
+    color: white;
+  }

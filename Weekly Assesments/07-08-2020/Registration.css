@@ -1,0 +1,39 @@
+body{
+    font-family: 'PT Serif', serif;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 800px;
+    max-width: 90%;
+    box-shadow: 0 8px 15px;
+    align-content: center;
+    padding:  5% 8%;
+}
+
+
+.credential-box{
+    display: flex;
+    padding: 10px 10px 10px 0;
+    margin-right: 10px;
+    background-color: #ffffff;
+
+}
+.icons{
+    background-color: #b2bec3;
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+.button{
+    position: absolute;
+    left: 50%;
+}
+label{
+    display: inline-block;
+    width: 300px;
+    padding-bottom: 10px;
+}

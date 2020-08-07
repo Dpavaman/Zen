@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="Registration.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+        <div class="container">
+            <h1><u>Registration Form</u></h1>
+            <form action="#" autocomplete="off" onsubmit="alert('Thank you')">
+
+                <div class="credential-box">
+                    <label for="fullname">Full Name</label>
+                    <i class="fas fa-user icons"></i>
+                    <input type="text" id="name" name="fullname" placeholder="Full Name" size="15" required>
+                </div>
+
+                <div class="credential-box">
+                    
+                    <label for="address1">Address Line1</label>
+                    <i class="fas fa-address-card icons"></i>
+                    <input type="text" id="address1" name="address1" placeholder="Address Line1" size="15" required>
+                </div>
+
+                <div class="credential-box">
+                    <label for="address2">Address Line2</label>
+                    <i class="fas fa-address-card icons"></i>
+                    <input type="text" id="address2" name="address2" placeholder="Address Line2" size="15" required>
+                </div>
+
+                <div class="credential-box"> 
+                    <label for="city">City</label>
+                    <i class="fas fa-city icons"></i>
+                    <input type="text" id="city" name="city" placeholder="City" size="15" required>
+                </div>
+
+                <div class="credential-box"> 
+                    <label for="stste">State/Province/Region</label>
+                    <i class="fas fa-map-marker icons"></i>
+                    <input type="text" id="state" name="state" placeholder="State/Province/Region" size="15" required>
+                </div>
+
+                <div class="credential-box">
+                    <label for="zip">Postal Code/ZIP</label>
+                    <i class="fas fa-envelope-open icons"></i>
+                    <input type="text" id="zip" name="zip" placeholder="Postal Code/ZIP" size="15" required>
+                </div>
+
+                <div class="credential-box">
+                    <label for="country">Country</label>
+                    <i class="fas fa-map-marked icons"></i>
+                    <select  placeholder="Country"  required>
+                        <option value="none">---Select Country---</option>
+                        <option value="india">India</option>
+                        <option value="australia">Australia</option>
+                        <option value="sudan">Sudan</option>
+                        <option value="kazaksthan">Kazakhstan</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="china">China</option>
+                        <option value="us">United States</option>
+                        <option value="brazil">Brazil</option>
+                        <option value="russia">Russia</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </div>
+                <div class="credential-box">
+                    <label for="email">Email</label>
+                    <i class="fas fa-at icons"></i>
+                    <input type="email" id="email" name="email" placeholder="Email" size="15" required>
+                </div>
+
+                <div class="credential-box">
+                    <label for="cell">Phone Number</label>
+                    <i class="fas fa-phone-alt icons"></i>
+                    <input type="text" id="cell" name="cell" placeholder="Phone Number" pattern="^\d{15}$" size="15" required>
+                </div>
+                <br>
+                <div class=" credentialbox submit">
+                    <input type="submit" value="Submit" class="button">
+                </div>
+            </form>
+        </div>
+    
+</body>
+</html>

@@ -1,0 +1,51 @@
+.html{
+    width: 80%;
+    margin-left: 10%;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 400px;
+    margin-left: 35%;
+    margin-top: 40px;
+  }
+  
+  .button-Registration {
+    background-color: #636e72; 
+    color: white; 
+
+  }
+  
+  .button-Registration:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button-Landing {
+    background-color: #636e72; 
+    color: white; 
+  }
+  
+  .button-Landing:hover {
+    background-color: #FFC312;
+    color: white;
+  }
+  .button-grid {
+    background-color: #636e72; 
+    color: white; 
+
+  }
+  
+  .button-grid:hover {
+    background-color: #81ecec;
+    color: white;
+  }
+  
