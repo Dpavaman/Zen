@@ -1,0 +1,1 @@
+Creating a resme template with only DOM and CSS
