@@ -1,0 +1,2 @@
+On pressing the button GENERATE, a number consisting of 8 unique digits is displayed on the display box every time..
+and the Your Age can be calculated just by entering your Date of birth.. The age displayed after Calculation includes various entities such as milliseconds, Days, Months, Etc.
