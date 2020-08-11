@@ -1,0 +1,1 @@
+An HTML page which can take Inputs from the user in the form of a registration form and then the collected data is represented in a table format..
