@@ -1,0 +1,59 @@
+span{
+    position: fixed;
+    top: 20%;
+    left: 60%;
+}
+
+.pagination{
+    
+    font-size: 40px;
+    width: max-content;
+    position: absolute;
+    top: 10px;
+}
+a{
+    position: fixed;
+    text-decoration: none;
+    font-size: 35px;
+    background: white;
+    color: black;
+    margin: 10px;
+    transition: 1.2s;
+    font-family: cursive;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    margin-top: 10px;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+a:hover{
+    font-style: italic;
+    margin-left: 20px;
+    color: black;
+    transform: scaleX(1.5);
+}
+a:active{
+    background: black;
+    color: white;
+}
+
+#track{
+    font-family: cursive;
+    font-size: 20px;
+    float: right;
+    margin-right: 22%;
+    margin-top: -2%;
+}
+
+#display{
+    text-align: center;
+    display: flex;;
+    margin-bottom: 20%;
+    height: 700px;
+    margin-top: 5%;
+    margin-left: 20%;
+    position: fixed;
+
+}
