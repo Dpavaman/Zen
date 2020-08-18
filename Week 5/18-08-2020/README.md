@@ -1,0 +1,1 @@
+With the help of XMLHttprequest, few datas are requested from the restful counties and displayed them on the page including the flag of the respective countries..
