@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="text-center" id="container">
+        <div>
+            <h1>JavaScript ES6 Equivalents For Lodash Functions</h1>
+        </div>
+        <input type="text" id="input" class="mt-5">
+
+        <div class="container mt-3 mb-5">
+            <button type="submit" id="button" class = 'btn btn-outline-primary text-white' onclick="doChunk()">Chunk</button>
+            <button type="submit" id="button" class = 'btn btn-outline-primary text-white' onclick="doReduce()">Reduce</button>
+            <button type="submit" id="button" class = 'btn btn-outline-primary text-white' onclick="doFilter()">Filter</button>
+            <button type="submit" id="button" class = 'btn btn-outline-primary text-white' onclick="doFind()">Find</button>
+            <button type="submit" id="button" class = 'btn btn-outline-primary text-white' onclick="doSum()">Sum</button>
+        </div>
+
+            <p>Enter <b> 'Numbers' </b> with a single Space seperation between them and click on corresponding buttons</p>
+            <p>To check the output, open console tab of Element inspection window.</p>
+            <p>Sample Input:  1 2 3 4 (with single Space between every Number) </p>
+            <p>To check 'Find' function, enter repeating Numbers.</p> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
