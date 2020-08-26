@@ -1,0 +1,131 @@
+body{
+    background: #4b4b4b;
+    animation: changeImage 40s infinite;
+    transition: 0.8s;
+}
+
+@keyframes changeImage{
+    0%{
+        background-image: url('https://i.vimeocdn.com/video/692317665_640x360.jpg');
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background-image: url('https://i.pinimg.com/originals/69/2e/64/692e6421912e29184674dd58ef9f5e18.jpg');
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url('https://lh3.googleusercontent.com/HuxXV2edgUYkKy0rbw2f_P8YjswljjqQ23okX91QNdS-rAWo2mB7HFZnAEn5NdHgXg');
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    75%{
+        background-image: url('https://wallpaperaccess.com/full/781682.jpg');
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    100%{
+        background-image: url('https://wallpaperaccess.com/full/384178.jpg');
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+.display-4{
+    float: left;
+    text-decoration: underline;
+    margin-bottom: 4rem;
+    font-family: monospace;
+}
+
+.inquiry{
+width: 400px;
+height: 450px;
+border: 1px solid black;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-150%,-50%);
+border-radius: 20px;
+background: black;
+opacity: 0.8;
+color: white;
+}
+
+.availability{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(30%,-50%);
+    background: black;
+    border-radius: 20px;
+    visibility: hidden;
+}
+
+.details{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(30%,-50%);
+    background: black;
+    border-radius: 20px;
+    overflow-y: scroll;
+    visibility: hidden; 
+}
+
+input[type=text], input[type=tel]{
+    display: block;
+    width: 80%;
+    margin: 3rem auto 1rem auto;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom: 2px solid white;
+    background: black;
+    color: white;
+    font-size: 1.2rem;
+}
+
+input[type = radio]{
+    align-self: center;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+p{
+    font-size: 2rem; 
+    padding:1rem; 
+    color: white;
+}
+
+select{
+    display: block;
+    width: 80%;
+    margin: 1rem auto 1rem auto;
+    border: none;
+    outline: none;
+    padding-left: 2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom: 2px solid white;
+    background: black;
+    color: white;
+    font-size: 0.8rem;
+}
+.btn{
+    transition: 0.8s;
+}
+button:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center inquiry">
+            <h1 class="display-4">Inquiry Form</h1>
+            <form autocomplete="off" class="text-center" id='form'>
+                <input type="text" name="fullname" id="fullname" placeholder="Enter Your FullName" required>
+                <input type="tel" name="cell" id="cell" placeholder="Enter Your Contact Number" required>
+                <span>
+                    <label for="adoptingYes">Inquiry to adopt </label>
+                    <input type="radio" name="adopting" id="yes" value='Yes'> &nbsp; &nbsp;
+                    <label for="adoptingNo"> Just Browsing !</label>
+                    <input type="radio" name="adopting" id="No" value="Not Sure">
+                </span>
+                <select name="category" id="category">
+                    <option value="select" selected disabled required>Select pet category</option>
+                    <option value="dogs">Dog</option>
+                    <option value="cats">Cat</option>
+                    <option value="birds">Bird</option>
+                    <option value="rabbits">Rabbit</option>
+                </select>
+                <button type="submit" class="btn btn-dark" onclick="submitted()">Place Inquiry</button>
+            </form>
+        </div>
+        <div class="availability" id="availability">
+            <p id="status"></p>
+            <br>
+            <button type="submit" class="btn btn-primary" onclick="showDetails()" style="margin-left:1rem">Show Details</button>
+        </div>
+        <div class="details" id="details">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
