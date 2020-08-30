@@ -1,0 +1,109 @@
+body{
+    background: linear-gradient(to right, #3e5151, #decba4);
+}
+.gradient{
+    background: linear-gradient(to right, #3e5151, #decba4);
+    max-height: 100%;
+}
+
+.scrollable::-webkit-scrollbar{
+    display: none;
+}
+
+.scrollable{
+    -ms-overflow-style : none;
+}
+
+.sideBar{
+    background: white;
+    /*opacity: 0.9;*/
+   
+}
+.options{
+    box-shadow: white;
+    width: 100%;
+}
+
+.player{
+    margin-top: 5%;
+    opacity: 0.7;
+    width: 50rem;
+}
+
+.btn{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.playList{
+    height: 100%;
+}
+#searchHere{
+    padding-top: 15px;
+    text-align: center;
+    float: left;
+    margin-left: 1%;
+    margin-top: 2.5%;
+    height: 3rem;
+    outline: none;
+    border-radius: 50%;
+    width: 3rem;
+    visibility: hidden;
+    background-color: #FFC312;
+    border: none;
+    outline: none;
+}
+
+.searchBar{
+    color: white;
+    width: 0;
+    float: left;
+    margin-top: 2.5%;
+    background: transparent;
+    border-radius: 30px;
+    height: 3rem;
+    outline: none;
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+    transition: 1s;
+    border: none;
+}
+
+.playerControlDiv{
+    background-color: #4b4b4b;
+    width: 100%;
+    z-index: 2;
+    max-height: 25%;
+}
+#playerThumbnail{
+    width: 150px;
+    height: 130px;
+    margin-top: 1px;
+}
+
+#option-home, #option-search{
+    color: black;
+    padding: 10% 0 0 0;
+    cursor: pointer;
+}
+
+.logo{
+    margin-top: 10%;
+    margin-left: 1%;
+    color: #18dcff;
+}
+
+.support{
+    color: #32ff7e;
+    font-size: 15px;
+    float: right;
+}
+
+.fa-compact-disc{
+    font-size: 6rem;
+}
+.appName{
+    font-size: 3rem;
+    margin-left: 10%;
+}
