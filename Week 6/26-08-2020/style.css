@@ -1,0 +1,13 @@
+.btn
+{
+    background: black;
+    transition: 2s;
+    color: white;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+
+#tv{
+    border: 50px solid black;
+}
