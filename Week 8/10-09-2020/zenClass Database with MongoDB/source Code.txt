@@ -1,0 +1,180 @@
+> use guvi_zen_class
+switched to db guvi_zen_class
+
+//----------------------------------------------CREATED DESIRED COLLECTIONS TO THE DATABASE ------------------------------------------
+
+
+> db.createCollection("students")
+{ "ok" : 1 }
+>
+>
+> db.createCollection("mentors")
+{ "ok" : 1 }
+>
+>
+> db.createCollection("courses")
+{ "ok" : 1 }
+>
+>
+> db.createCollection("attendance")
+{ "ok" : 1 }
+>
+>
+> db.createCollection("dailyTasks")
+{ "ok" : 1 }
+>
+>
+> db.createCollection("companyDrives")
+{ "ok" : 1 }
+>
+>
+> db.createCollection("codekata")
+{ "ok" : 1 }
+>
+>
+
+
+//----------------------------------------------CREATED DESIRED COLLECTIONS TO THE DATABASE DONE--------------------------------------
+
+
+
+
+//----------------------------------------------CREATED DESIRED FIELDS INTO STUDENTS COLLECTION ----------------------------------------
+
+> db.students.insertOne({name: "student1_name", email: "someone@example.com", mobile: "XXXXXXXXXX", dob: "yyyy-mm-dd", occupation: "occupation_name"})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5f5a73a72c2fb296b39e6363")
+}
+> db.students.find().pretty();
+{
+        "_id" : ObjectId("5f5a73a72c2fb296b39e6363"),
+        "name" : "student1_name",
+        "email" : "someone@example.com",
+        "mobile" : "XXXXXXXXXX",
+        "dob" : "yyyy-mm-dd",
+        "occupation" : "occupation_name"
+}
+>  
+
+//----------------------------------------------CREATED DESIRED FIELDS INTO STUDENTS COLLECTION DONE------------------------------------
+
+
+//----------------------------------------------CREATED DESIRED FIELDS INTO MENTORS COLLECTION ----------------------------------------
+
+ db.mentors.insertOne({mentorName: "name", mentorEmail: "mentor@example.com", studentsCountForMentors: 10})   
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5f5a73a72c2fb296b39e6364")
+}
+
+> db.mentors.find().pretty()
+{
+        "_id" : ObjectId("5f5a75e62c2fb296b39e6364"),
+        "mentorName" : "name",
+        "mentorEmail" : "mentor@example.com",
+        "studentsCountForMentors" : 10
+}
+> 
+
+
+//----------------------------------------------CREATED DESIRED FIELDS INTO MENTORS COLLECTION DONE----------------------------------------
+
+
+
+
+//----------------------------------------------CREATED DESIRED FIELDS INTO COURSES COLLECTION ----------------------------------------
+
+ db.courses.insertOne({courseName: "name_of_course", courseCategory: "programming", courseDuractionInHours : 20, courseAuthorName: "Name_of_the_author"}) 
+
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5f5a73a72c2fb296b39e6365")
+}
+
+> db.courses.find().pretty()
+{
+        "_id" : ObjectId("5f5a770d2c2fb296b39e6365"),
+        "courseName" : "name_of_course",
+        "courseCategory" : "programming",
+        "courseDuractionInHours" : 20,
+        "courseAuthorName" : "Name_of_the_author"
+}
+> 
+
+//----------------------------------------------CREATED DESIRED FIELDS INTO COURSES COLLECTION DONE----------------------------------------
+
+ 
+//----------------------------------------------CREATED DESIRED FIELDS INTO ATTENDANCE COLLECTION ----------------------------------------
+
+> db.attendance.insertOne({attendanceStatus: true, attendanceDate: 2020-09-10}) 
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5f5a7a712c2fb296b39e6366")
+}
+
+ > db.attendance.find().pretty()
+{
+        "_id" : ObjectId("5f5a79962c2fb296b39e6366"),
+        "attendanceStatus" : true,
+        "attendanceDate" : 2001
+}
+> 
+
+//----------------------------------------------CREATED DESIRED FIELDS INTO ATTENDANCE COLLECTION DONE----------------------------------------
+
+
+//----------------------------------------------CREATED DESIRED FIELDS INTO DAILY TASKS COLLECTION ----------------------------------------
+
+> db.dailyTasks.insertOne({taskName:"Name_of_task", taskType: "type_of_task", taskGivenDate: 2020-09-08, taskDeadline: 2020-09-09, taskUrl: "urlHere"})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5f5a7a712c2fb296b39e6367")
+}
+> db.dailyTasks.find().pretty()
+{
+        "_id" : ObjectId("5f5a7a712c2fb296b39e6367"),
+        "taskName" : "Name_of_task",
+        "taskType" : "type_of_task",
+        "taskGivenDate" : 2003,
+        "taskDeadline" : 2002,
+        "taskUrl" : "urlHere"
+}
+//----------------------------------------------CREATED DESIRED FIELDS INTO DAILY TASKS COLLECTION DONE----------------------------------------
+
+
+//----------------------------------------------CREATED DESIRED FIELDS INTO COMPANY DRIVES COLLECTION ----------------------------------------
+
+> db.companyDrives.insertOne({companyName: "Name_of_the_company", companyDriveDate: 2020-10-10, companyJD: "Job Description of Company Goes Here.", companyType: "Type"})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5f5a7bc72c2fb296b39e6368")
+}
+> db.companyDrives.find().pretty()
+{
+        "_id" : ObjectId("5f5a7bc72c2fb296b39e6368"),
+        "companyName" : "Name_of_the_company",
+        "companyDriveDate" : 2000,
+        "companyJD" : "Job Description of Company Goes Here.",
+        "companyType" : "Type"
+}
+>
+//----------------------------------------------CREATED DESIRED FIELDS INTO COMPANY DRIVES COLLECTION DONE----------------------------------------
+
+
+//----------------------------------------------CREATED DESIRED FIELDS INTO CODEKATA COLLECTION ----------------------------------------
+
+> db.codekata.insertOne({codekataCategoryName: "Arrays", codekataQuestionID: 31, codekataQuestionStatus: false})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5f5a7d6b2c2fb296b39e6369")
+}
+> db.codekata.find().pretty()
+{
+        "_id" : ObjectId("5f5a7d6b2c2fb296b39e6369"),
+        "codekataCategoryName" : "Arrays",
+        "codekataQuestionID" : 31,
+        "codekataQuestionStatus" : false
+}
+> 
+//----------------------------------------------CREATED DESIRED FIELDS INTO CODEKATA COLLECTION DONE----------------------------------------
