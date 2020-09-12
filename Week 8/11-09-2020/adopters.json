@@ -1,0 +1,43 @@
+[
+    {
+        "name" : "Aron",
+        "Money Paid" : 10000,
+        "contact" : {
+            "Phone" : "XXXXXXXXXX",
+            "email" : "aron@example.com"
+        },
+        "Adoption Date" : "YYYY-MM-DD",
+        "Adopted Pet" : "Dog" 
+    },
+    {
+        "name" : "Joseph",
+        "Money Paid" : 8000,
+        "contact" : {
+            "Phone" : "XXXXXXXXXX",
+            "email" : "joseph@example.com"
+        },
+        "Adoption Date" : "YYYY-MM-DD",
+        "Adopted Pet" : "Cat" 
+    },
+    {
+        "name" : "Peterson",
+        "Money Paid" : 12000,
+        "contact" : {
+            "Phone" : "XXXXXXXXXX",
+            "email" : "peterson@example.com"
+        },
+        "Adoption Date" : "YYYY-MM-DD",
+        "Adopted Pet" : "Horse" 
+    },
+    {
+        "name" : "Kate",
+        "Money Paid" : 25000,
+        "contact" : {
+            "Phone" : "XXXXXXXXXX",
+            "email" : "kate@example.com"
+        },
+        "Adoption Date" : "YYYY-MM-DD",
+        "Adopted Pet" : "Horse" 
+    }
+
+]

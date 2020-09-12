@@ -1,0 +1,56 @@
+[
+    {
+        "pet" : "Dog",
+        "Scientific Name" : "Canis lupus familiaris",
+        "Wild ancestor" : "Canis lupus spp",
+        "Location of Origin" : ["China", "Europe"],
+        "Expertise" : ["Pets", "hunting", "herding", "guarding"," pest control", "transportation", "draft", "working", "show", "racing", "sport", "meat", "rescuing", "guiding", "fighting", "service", "research", "policing", "narcotics detection", "patrol", "fibre"],
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Pembroke_Welsh_Corgi_600.jpg/130px-Pembroke_Welsh_Corgi_600.jpg",
+        "Age in Years" : 2
+    },
+    {
+        "pet" : "Goat",
+        "Scientific Name" : "Capra aegagrus hircus",
+        "Wild ancestor" : "Capra aegagrus aegagrus",
+        "Location of Origin" : ["Iran"],
+        "Expertise" : ["milk", "meat", "fibre", "skin", "vellum", "show", "racing", "fighting", "clearing land", "pets", "horns", "guarding", "weed control", "manure"],
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Capra%2C_Crete_4.jpg/130px-Capra%2C_Crete_4.jpg",
+        "Age in Years" : 4
+    },
+    {
+        "pet" : "Domestic Pig",
+        "Scientific Name" : "Sus scrofa domesticus",
+        "Wild ancestor" : "Sus scrofa moupinensis",
+        "Location of Origin" : ["China", "Western Asia"],
+        "Expertise" : ["meat", "leather", "research", "show", "racing", "fighting", "truffle harvesting", "pets", "tusks", "guarding", "manure", "weed control"],
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sow_with_piglet.jpg/130px-Sow_with_piglet.jpg",
+        "Age in Years" : 1
+    },
+    {
+        "pet" : "Cat",
+        "Scientific Name" : "Felis catus",
+        "Wild ancestor" : "Felis lybica",
+        "Location of Origin" : ["Turkey", "Western Asia", "Egypt"],
+        "Expertise" : ["pets", "meat", "pest control", "show", "pelt", "research"],
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Jammlich_crop.jpg/130px-Jammlich_crop.jpg",
+        "Age in Years" : 3
+    },
+    {
+        "pet" : "Horse",
+        "Scientific Name" : "Equus ferus caballus",
+        "Wild ancestor" : "Equus ferus ferus",
+        "Location of Origin" : ["Kazakhsthan"],
+        "Expertise" : ["transportation", "milk", "meat", "working", "guiding", "servicing", "herding", "hunting", "execution", "plowing", "draft", "mount", "patrol fighting show", "racing", "pets", "hair", "manure", "lawn mowing", "weed control"],
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Nokota_Horses_cropped.jpg/130px-Nokota_Horses_cropped.jpg",
+        "Age in Years" : 8
+    },
+    {
+        "pet" : "Gold Fish",
+        "Scientific Name" : "Carassius auratus",
+        "Wild ancestor" : "Carassius auratus",
+        "Location of Origin" : ["China"],
+        "Expertise" : ["pets", "show", "racing", "ornamental", "pest control"],
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Gullfiskur.jpg/130px-Gullfiskur.jpg",
+        "Age in Years" : 8
+    }
+]
